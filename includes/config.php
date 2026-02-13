@@ -9,8 +9,13 @@ const DB_PASS = '';
 
 const SITE_DEFAULTS = [
     'site_name' => 'SongDraft',
-    'tagline' => 'Nowoczesne wyświetlanie tekstów i sterowanie multimediami w kościele',
+    'tagline' => 'Inteligentne wyświetlanie tekstów i multimediów w kościele',
+    'hero_subtitle' => 'Aplikacja uruchamiana na mini komputerze lub samodzielnie, sterowana wygodnie z tableta.',
     'cta_phone' => '+48 000 000 000',
     'cta_email' => 'kontakt@songdraft.pl',
-    'hero_subtitle' => 'Aplikacja uruchamiana na mini komputerze, wygodnie sterowana z tableta.',
+    'features_title' => 'Co potrafi SongDraft?',
+    'pricing_title' => 'Pakiety i ceny',
+    'screenshots_title' => 'Zrzuty aplikacji',
+    'services_title' => 'Usługi dodatkowe',
+    'contact_title' => 'Skontaktuj się z nami',
 ];

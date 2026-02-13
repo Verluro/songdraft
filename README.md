@@ -1,21 +1,24 @@
-# SongDraft – strona promocyjna + panel admina
+# SongDraft – strona promocyjna + panel CMS
 
-## Technologie
-- PHP (frontend + zaplecze)
-- HTML5 / CSS3 / JavaScript
-- MySQL (do zarządzania np. przez phpMyAdmin)
+## Stack
+- PHP + HTML + CSS3 + JavaScript
+- MySQL (phpMyAdmin)
 
 ## Instalacja
-1. Skopiuj pliki na serwer PHP (np. Apache + PHP 8+).
-2. Utwórz bazę i tabele, importując `database.sql` przez phpMyAdmin.
-3. W razie potrzeby zmień dane dostępowe DB w `includes/config.php`.
-4. Uruchom stronę `index.php`.
+1. Wgraj pliki na serwer PHP.
+2. Zaimportuj `database.sql` przez phpMyAdmin.
+3. Ustaw dane DB w `includes/config.php`.
+4. Otwórz `index.php`.
 
-## Panel administracyjny
+## Panel admina
 - URL: `/admin/login.php`
-- Domyślne dane: `admin` / `songdraft123`
+- Login domyślny: `admin`
+- Hasło domyślne: `songdraft123`
 
-W panelu można:
-- zmienić nazwę i treści główne strony,
-- podejrzeć statystyki wizyt,
-- przeglądać ostatnie zapytania z formularza.
+W panelu można edytować:
+- wszystkie teksty sekcji,
+- funkcje,
+- pakiety (w tym Mini) i ceny,
+- zrzuty aplikacji (URL + opisy),
+- usługi dodatkowe,
+- podgląd statystyk odwiedzin i zapytań.
